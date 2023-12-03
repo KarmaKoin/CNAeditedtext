@@ -1,6 +1,9 @@
 {
-    "name": "arcade-fancy-text",
+    "name": "CNA-Modified-text",
     "version": "0.0.14",
+    "dependencies": {
+        "device": "*"
+    },
     "files": [
         "docs/animate-at-speed.md",
         "docs/animate-for-time.md",
@@ -30,11 +33,13 @@
     "testFiles": [
         "test.ts"
     ],
+    "testDependencies": {},
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
     "supportedTargets": [
         "arcade"
     ],
-    "dependencies": {
-        "device": "*"
-    },
-    "testDependencies": {}
+    "preferredEditor": "tsprj"
 }
